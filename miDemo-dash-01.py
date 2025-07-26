@@ -4,6 +4,7 @@ import pandas as pd
 import plotly.express as px
 
 app = Dash()
+server = app.server
 dfEuge = pd.read_excel('miopia25.xlsx')
 
 # Cargar un dataset (acá usás el de gapminder como en tu screenshot, podés cambiarlo por iris si querés)
